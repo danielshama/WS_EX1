@@ -1,0 +1,76 @@
+{
+    "students":[
+        {
+            "name": "Denis",
+            "id": "123123",
+            "year": "2016",
+            "grade": "90"
+        },
+        {
+            "name": "David",
+            "id": "989898",
+            "year": "2016",
+            "grade": "92"
+        },
+        {
+            "name": "Dor",
+            "id": "777777",
+            "year": "2016",
+            "grade": "99"
+        },
+        {
+            "name": "Limor",
+            "id": "222222",
+            "year": "2015",
+            "grade": "90"
+        },
+        {
+            "name": "Sahar",
+            "id": "333333",
+            "year": "2015",
+            "grade": "91"
+        },
+        {
+            "name": "Semi",
+            "id": "444444",
+            "year": "2016",
+            "grade": "90"
+        },
+        {
+            "name": "Gabi",
+            "id": "555555",
+            "year": "2015",
+            "grade": "98"
+        },
+        {
+            "name": "Dorit",
+            "id": "123321",
+            "year": "2015",
+            "grade": "93"
+        },
+        {
+            "name": "Ofir",
+            "id": "111111",
+            "year": "2014",
+            "grade": "100"
+        },
+        {
+            "name": "Adi",
+            "id": "121212",
+            "year": "2014",
+            "grade": "97"
+        },
+        {
+            "name": "Rotem",
+            "id": "753456",
+            "year": "2014",
+            "grade": "89"
+        },
+        {
+            "name": "Shani",
+            "id": "145654",
+            "year": "2015",
+            "grade": "100"
+        }
+    ]
+}

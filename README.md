@@ -1,6 +1,7 @@
 # Excellence Students Grades - API
 
 This web service created to provide numerous ways to retrieve information about the excellence students.
+
 The data return in JSON format. It's containing an array of students or a single object in one of the cases.
 
 ####All the requests must be in GET method.

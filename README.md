@@ -25,20 +25,22 @@ http://localhost:3000/getAllExcellenceStudent
 
 **Response**: JSON object, contains array of students
 ```javascript
-[
-    {
-        "name": "Denis",
-        "id": "123123",
-        "year": "2016",
-        "grade": "90"
-    },
-    {
-        "name": "David",
-        "id": "989898",
-        "year": "2016",
-        "grade": "92"
-    }
-]
+{
+    "students":[
+        {
+            "name": "Denis",
+            "id": "123123",
+            "year": "2016",
+            "grade": "90"
+        },
+        {
+            "name": "David",
+            "id": "989898",
+            "year": "2016",
+            "grade": "92"
+        }
+    ]
+}
 ```
 ---
 <a name="byID">
@@ -70,20 +72,22 @@ http://localhost:3000/getStudentByYear/<Year>
 
 **Response**: JSON object, contains array of students
 ```javascript
-[
-    {
-        "name": "Adi",
-        "id": "11111",
-        "year": "1991",
-        "grade": "90"
-    },
-    {
-        "name": "Romi",
-        "id": "22222",
-        "year": "1991",
-        "grade": "100"
-    }
-]
+{
+    "students":[
+        {
+            "name": "Adi",
+            "id": "11111",
+            "year": "1991",
+            "grade": "90"
+        },
+        {
+            "name": "Romi",
+            "id": "22222",
+            "year": "1991",
+            "grade": "100"
+        }
+    ]
+}
 ```
 
 ---

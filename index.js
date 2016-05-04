@@ -20,14 +20,23 @@ app.get('/', function(req, res, next){
     res.end();
 });
 
+// getAllExcellenceStudent Method:
+// params: none
+// response: all students in json array
 app.get('/getAllExcellenceStudent', function(req, res, value){
     res.json(api.getAllExcellenceStudent());
 });
 
+// getStudentByID Method:
+// params: id (number)
+// response: json object
 app.get('/getStudentByID/:id', function(req, res, value){
     res.json(api.getStudByID(req.params.id));
 });
 
+// getStudentByYear Method:
+// params: year (number)
+// response: students in array
 app.get('/getStudentByYear/:year', function(req, res, value){
     res.json(api.getStudentByYear(req.params.year));
 });

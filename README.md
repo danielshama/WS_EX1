@@ -1,6 +1,7 @@
 # Excellence Students Grades - API
 
 This web service created to provide numerous ways to retrieve information about the excellence students.
+
 The data return in JSON format. It's containing an array of students or a single object in one of the cases.
 
 ####All the requests must be in GET method.
@@ -19,7 +20,7 @@ _For more information about the Methods:_
 ###Get All Excellence Student
 In order to get all the students, you should use:
 ```
-http://localhost:3000/getAllExcellenceStudent
+http://excellence-students.herokuapp.com/getAllExcellenceStudent
 ```
 **Parameters**: none
 
@@ -47,7 +48,7 @@ http://localhost:3000/getAllExcellenceStudent
 ###Get Student By ID
 In order to get a specifically student, you should use:
 ```
-http://localhost:3000/getStudentByID/<ID_number>
+http://excellence-students.herokuapp.com/getStudentByID/<ID_number>
 ```
 **Parameters**: ID number (int)
 
@@ -66,7 +67,7 @@ http://localhost:3000/getStudentByID/<ID_number>
 ###Get Student By Year
 In order to find information about students depending on the year of study, you should use:
 ```
-http://localhost:3000/getStudentByYear/<Year>
+http://excellence-students.herokuapp.com/getStudentByYear//<Year>
 ```
 **Parameters**: Year of study (int)
 
@@ -95,6 +96,6 @@ http://localhost:3000/getStudentByYear/<Year>
 
 | Request       | Data          | Empty  |
 | ------------- |:-------------:| -----:|
-| Get all students| [{},{}...] - array of objects  | [ ] - empty array |
+| Get all students| { "students" : [ { }, { }... ] } - array of objects  | { "students" : [ ] } - empty array |
 | Get student by ID | { } - object      |  null |
-| Get students by year | [{},{}...] - array of objects       |    [ ] - empty array |
+| Get students by year | { "students" : [ { }, { }... ] } - array of objects       |    { "students" : [ ] } - empty array |

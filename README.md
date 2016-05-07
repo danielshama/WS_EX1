@@ -92,7 +92,7 @@ http://excellence-students.herokuapp.com/getStudentByYear//<Year>
 
 **name**: String 
 
-**id**: Number 
+**id**: Number (unique)
 
 **year**: Number
 

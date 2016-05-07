@@ -29,15 +29,15 @@ http://excellence-students.herokuapp.com/getAllExcellenceStudent
 [
     {
         "name": "Denis",
-        "id": "123123",
-        "year": "2016",
-        "grade": "90"
+        "id": 123123,
+        "year": 2016,
+        "grade": 90
     },
     {
         "name": "David",
-        "id": "989898",
-        "year": "2016",
-        "grade": "92"
+        "id": 989898,
+        "year": 2016,
+        "grade": 92
     }
 ]
 ```
@@ -54,9 +54,9 @@ http://excellence-students.herokuapp.com/getStudentByID/<ID_number>
 ```javascript
 {
   "name": "Ofir",
-  "id": "55555",
-  "year": "2000",
-  "grade": "99"
+  "id": 55555,
+  "year": 2009,
+  "grade": 99
 }
 ```
 
@@ -74,15 +74,15 @@ http://excellence-students.herokuapp.com/getStudentByYear//<Year>
 [
     {
         "name": "Adi",
-        "id": "11111",
-        "year": "1991",
-        "grade": "90"
+        "id": 11111,
+        "year": 1991,
+        "grade": 90
     },
     {
         "name": "Romi",
-        "id": "22222",
-        "year": "1991",
-        "grade": "100"
+        "id": 22222,
+        "year": 1991,
+        "grade": 100
     }
 ]
 ```

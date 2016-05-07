@@ -65,7 +65,7 @@ http://excellence-students.herokuapp.com/getStudentByID/<ID_number>
 ###Get Student By Year
 In order to find information about students depending on the year of study, you should use:
 ```
-http://excellence-students.herokuapp.com/getStudentByYear//<Year>
+http://excellence-students.herokuapp.com/getStudentByYear/<Year>
 ```
 **Parameters**: Year of study (int)
 

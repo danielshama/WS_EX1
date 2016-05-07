@@ -86,6 +86,15 @@ http://excellence-students.herokuapp.com/getStudentByYear//<Year>
     }
 ]
 ```
+---
+
+Object structer - 
+
+*name*: String 
+*id*: Number 
+*year*: Number
+*grade*: Number
+
 
 ---
 

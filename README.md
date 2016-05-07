@@ -26,22 +26,20 @@ http://excellence-students.herokuapp.com/getAllExcellenceStudent
 
 **Response**: JSON object, contains array of students
 ```javascript
-{
-    "students":[
-        {
-            "name": "Denis",
-            "id": "123123",
-            "year": "2016",
-            "grade": "90"
-        },
-        {
-            "name": "David",
-            "id": "989898",
-            "year": "2016",
-            "grade": "92"
-        }
-    ]
-}
+[
+    {
+        "name": "Denis",
+        "id": "123123",
+        "year": "2016",
+        "grade": "90"
+    },
+    {
+        "name": "David",
+        "id": "989898",
+        "year": "2016",
+        "grade": "92"
+    }
+]
 ```
 ---
 <a name="byID">
@@ -73,22 +71,20 @@ http://excellence-students.herokuapp.com/getStudentByYear//<Year>
 
 **Response**: JSON object, contains array of students
 ```javascript
-{
-    "students":[
-        {
-            "name": "Adi",
-            "id": "11111",
-            "year": "1991",
-            "grade": "90"
-        },
-        {
-            "name": "Romi",
-            "id": "22222",
-            "year": "1991",
-            "grade": "100"
-        }
-    ]
-}
+[
+    {
+        "name": "Adi",
+        "id": "11111",
+        "year": "1991",
+        "grade": "90"
+    },
+    {
+        "name": "Romi",
+        "id": "22222",
+        "year": "1991",
+        "grade": "100"
+    }
+]
 ```
 
 ---

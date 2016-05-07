@@ -1,14 +1,11 @@
 var express     = require('express');
 var bodyParser  = require('body-parser');
-var API         = require('./src/api.js');
+var API         = require('./src/api/');
 var app         = express();
 var port        = process.env.PORT || 3000;
 var api         = new API();
 
 app.use('/assets', express.static(__dirname + '/public'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:true}));
-
 
 app.all('*', function(req,res,next){
     console.log('Logged In!'); 
@@ -24,21 +21,28 @@ app.get('/', function(req, res, next){
 // params: none
 // response: all students in json array
 app.get('/getAllExcellenceStudent', function(req, res, value){
-    res.json(api.getAllExcellenceStudent());
+    api.getAllExcellenceStudent(function(data){
+        res.json(data);
+    })
 });
 
 // getStudentByID Method:
 // params: id (number)
 // response: json object
 app.get('/getStudentByID/:id', function(req, res, value){
-    res.json(api.getStudByID(req.params.id));
+    api.getStudByID(req.params.id,function(data){
+        res.json(data);
+    });
+    
 });
 
 // getStudentByYear Method:
 // params: year (number)
 // response: students in array
 app.get('/getStudentByYear/:year', function(req, res, value){
-    res.json(api.getStudentByYear(req.params.year));
+    api.getStudentByYear(req.params.year, function(data){
+        res.json(data);
+    })
 });
 
 app.listen(port);

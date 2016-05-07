@@ -88,12 +88,15 @@ http://excellence-students.herokuapp.com/getStudentByYear//<Year>
 ```
 ---
 
-Object structer - 
+Object structure - 
 
-*name*: String 
-*id*: Number 
-*year*: Number
-*grade*: Number
+**name**: String 
+
+**id**: Number 
+
+**year**: Number
+
+**grade**: Number
 
 
 ---

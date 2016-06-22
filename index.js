@@ -18,7 +18,7 @@ app.all('*', function(req,res,next){
 });
 
 app.get('/', function(req, res, next){
-    res.send('<!doctype html> <html><head><link href=assets/style.css rel=stylesheet><title>Daniel Shamama</title></head><body>Hello, It\'s me</body></html>');
+    res.send('<!doctype html> <html><head><link href=assets/style.css rel=stylesheet><title>Daniel Shamama</title></head><body>Hello, It\'s me.</body></html>');
     res.end();
 });
 

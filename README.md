@@ -26,22 +26,20 @@ http://excellence-students.herokuapp.com/getAllExcellenceStudent
 
 **Response**: JSON object, contains array of students
 ```javascript
-{
-    "students":[
-        {
-            "name": "Denis",
-            "id": "123123",
-            "year": "2016",
-            "grade": "90"
-        },
-        {
-            "name": "David",
-            "id": "989898",
-            "year": "2016",
-            "grade": "92"
-        }
-    ]
-}
+[
+    {
+        "name": "Denis",
+        "id": 123123,
+        "year": 2016,
+        "grade": 90
+    },
+    {
+        "name": "David",
+        "id": 989898,
+        "year": 2016,
+        "grade": 92
+    }
+]
 ```
 ---
 <a name="byID">
@@ -56,9 +54,9 @@ http://excellence-students.herokuapp.com/getStudentByID/<ID_number>
 ```javascript
 {
   "name": "Ofir",
-  "id": "55555",
-  "year": "2000",
-  "grade": "99"
+  "id": 55555,
+  "year": 2009,
+  "grade": 99
 }
 ```
 
@@ -67,29 +65,39 @@ http://excellence-students.herokuapp.com/getStudentByID/<ID_number>
 ###Get Student By Year
 In order to find information about students depending on the year of study, you should use:
 ```
-http://excellence-students.herokuapp.com/getStudentByYear//<Year>
+http://excellence-students.herokuapp.com/getStudentByYear/<Year>
 ```
 **Parameters**: Year of study (int)
 
 **Response**: JSON object, contains array of students
 ```javascript
-{
-    "students":[
-        {
-            "name": "Adi",
-            "id": "11111",
-            "year": "1991",
-            "grade": "90"
-        },
-        {
-            "name": "Romi",
-            "id": "22222",
-            "year": "1991",
-            "grade": "100"
-        }
-    ]
-}
+[
+    {
+        "name": "Adi",
+        "id": 11111,
+        "year": 1991,
+        "grade": 90
+    },
+    {
+        "name": "Romi",
+        "id": 22222,
+        "year": 1991,
+        "grade": 100
+    }
+]
 ```
+---
+
+###Object structure - 
+
+**name**: String 
+
+**id**: Number (unique)
+
+**year**: Number
+
+**grade**: Number
+
 
 ---
 
